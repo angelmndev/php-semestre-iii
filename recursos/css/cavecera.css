@@ -1,0 +1,46 @@
+#menu {
+    width: 100px;
+    margin: 0 auto
+}
+#menu>ul>li {
+    float: left
+}
+#menu>ul>li a {
+    display: block;
+    width: 120px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0);
+    text-align: left;
+    line-height: 50px;
+    text-decoration: none;
+    font-family:Arial;
+    font-weight: bold;
+    font-size: 14px;
+    color: #fff ;
+}
+#menu>ul>li>ul {
+    display: none
+}
+#menu>ul>li>ul>li {
+    position: relative
+}
+#menu>ul>li>ul>li>a {
+    background: rgba(0, 0, 0, 0);
+    font-size: 9pt !important;
+    color: rgb(194, 194, 194);
+}
+#menu>ul>li>ul>li>ul {
+    position: absolute;
+    left: 100px;
+    top: 0;
+    display: none
+}
+#menu>ul>li>ul>li>ul a {
+    background: #ff0
+}
+#menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+
